@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&display=swap');
+
+  body{
+    background-color: lightblue;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.conteiner{
+    height: 210px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.image{
+    content: url(./NEZU.jpeg);
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    margin: -45px auto;
+    border: 5px solid white;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+.text{
+    padding-inline: 15px;
+    text-align: center;
+    font-size: x-small;
+    padding-bottom: 1em;
+}
+
+.botones{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+.Follow{
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 8px;
+    color:#fff;
+    background-color: rgb(4, 107, 165);
+    border: 0px;
+}
+
+.telegram{
+    background-color: rgb(205, 225, 237);
+    background-image:url(./telegrama.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    border-radius: 10px;
+    border:0px;
+    width: 50px;
+}
