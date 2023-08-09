@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&display=swap');
 
-  body{
+body{
     background-color: lightblue;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -49,21 +49,37 @@ h2{
 }
 
 .Follow{
-    width: 200px;
+    width: 50px;
+    font-size: smaller;
+    font-weight: 700;
     border-radius: 10px;
     margin-right: 8px;
     color:#fff;
     background-color: rgb(4, 107, 165);
-    border: 0px;
+    border: 2px solid rgb(4, 107, 165);
+    padding: 8px 70px;
+    text-decoration: none;
+}
+
+.Follow:hover{
+    background-color: transparent;
+    border:2px solid rgb(4, 107, 165);
+    color: rgb(4, 107, 165);
 }
 
 .telegram{
     background-color: rgb(205, 225, 237);
+    border: 2px solid rgb(205, 225, 237);;
     background-image:url(./Imagenes/telegrama.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
     border-radius: 10px;
-    border:0px;
-    width: 50px;
+    width: 48px;
+}
+
+.telegram:hover{
+    background-color: transparent;
+    border: 2px solid rgb(205, 225, 237);
+    background-image: url(./Imagenes/telegramanegro.png);
 }
