@@ -19,7 +19,7 @@
 }
 
 .image{
-    content: url(./NEZU.jpeg);
+    content: url(./Imagenes/NEZU.jpeg);
     height: 80px;
     width: 80px;
     background-color: red;
@@ -59,7 +59,7 @@ h2{
 
 .telegram{
     background-color: rgb(205, 225, 237);
-    background-image:url(./telegrama.png);
+    background-image:url(./Imagenes/telegrama.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
